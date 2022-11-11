@@ -10,7 +10,7 @@ import {
   useWindowDimensions
 } from "react-native";
 
-const images = new Array(6).fill('https://images.unsplash.com/photo-1556740749-887f6717d7e4');
+const images = new Array(6).fill('https://firebasestorage.googleapis.com/v0/b/photo-array-c993c.appspot.com/o/1573523197804.jpeg?alt=media&token=7993f543-ce34-4b7f-ba82-8ed8abc8902fhttps://images.unsplash.com/photo-1556740749-887f6717d7e4');
 
 const App = () => {
   const scrollX = useRef(new Animated.Value(0)).current;
